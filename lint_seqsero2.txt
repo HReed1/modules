@@ -1,0 +1,78 @@
+
+
+                                          ,--./,-.
+          ___     __   __   __   ___     /,-._.--~\ 
+    |\ | |__  __ /  ` /  \ |__) |__         }  {
+    | \| |       \__, \__/ |  \ |___     \`-._,-`-,
+                                          `._,._,'
+
+    nf-core/tools version 4.0.1 - https://nf-co.re
+    There is a new version of nf-core/tools available! (4.0.2)
+
+
+
+INFO     Linting modules repo: '.'                                              
+INFO     Linting module: 'seqsero2'                                             
+
+
+╭─ [!] 1 Module Test Warning ──────────────────────────────────────────────────╮
+│             ╷                               ╷                                │
+│ Module name │ File path                     │ Test message                   │
+│╶────────────┼───────────────────────────────┼───────────────────────────────╴│
+│ seqsero2    │ modules/nf-core/seqsero2/mai… │ bioconda_latest: Conda update: │
+│             │                               │ bioconda::seqsero2 1.2.1 ->    │
+│             │                               │ 1.3.2                          │
+│             ╵                               ╵                                │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─ [✗] 4 Module Tests Failed ──────────────────────────────────────────────────╮
+│             ╷                               ╷                                │
+│ Module name │ File path                     │ Test message                   │
+│╶────────────┼───────────────────────────────┼───────────────────────────────╴│
+│ seqsero2    │ modules/nf-core/seqsero2/met… │ correct_meta_outputs: Module   │
+│             │                               │ meta.yml does not match        │
+│             │                               │ main.nf. Outputs should        │
+│             │                               │ contain: {'log': [['meta',     │
+│             │                               │ 'results/_log.txt']], 'tsv':   │
+│             │                               │ [['meta',                      │
+│             │                               │ 'results/_result.tsv']],       │
+│             │                               │ 'txt': [['meta',               │
+│             │                               │ 'results/*_result.txt']],      │
+│             │                               │ 'versions_seqsero2':           │
+│             │                               │ [['task.process', 'seqsero2',  │
+│             │                               │ 'SeqSero2_package.py --version │
+│             │                               │ 2>&1 | sed                     │
+│             │                               │ "s/^.*SeqSero2_package.py      │
+│             │                               │ //"']]} Run nf-core modules    │
+│             │                               │ lint --fix to update the       │
+│             │                               │ meta.yml file.                 │
+│ seqsero2    │ modules/nf-core/seqsero2/met… │ correct_meta_topics: Module    │
+│             │                               │ meta.yml does not match        │
+│             │                               │ main.nf. Topics should         │
+│             │                               │ contain: {'versions':          │
+│             │                               │ [['task.process', 'seqsero2',  │
+│             │                               │ 'SeqSero2_package.py --version │
+│             │                               │ 2>&1 | sed                     │
+│             │                               │ "s/^.*SeqSero2_package.py      │
+│             │                               │ //"']]} Run nf-core modules    │
+│             │                               │ lint --fix to update the       │
+│             │                               │ meta.yml file.                 │
+│ seqsero2    │ modules/nf-core/seqsero2/tes… │ test_snap_versions: versions   │
+│             │                               │ not found in snapshot file     │
+│ seqsero2    │ modules/nf-core/seqsero2/mai… │ wrong_version_output: Versions │
+│             │                               │ topic output is not correctly  │
+│             │                               │ formatted, expected tuple      │
+│             │                               │ val("${task.process}"),        │
+│             │                               │ val('<tool>'),                 │
+│             │                               │ eval("<version_command>")|val( │
+│             │                               │ '<version>')`` or path         │
+│             │                               │ version.yml` if using a        │
+│             │                               │ template script.               │
+│             ╵                               ╵                                │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭──────────────────────╮
+│ LINT RESULTS SUMMARY │
+├──────────────────────┤
+│ [✔]  46 Tests Passed │
+│ [!]   1 Test Warning │
+│ [✗]   4 Tests Failed │
+╰──────────────────────╯

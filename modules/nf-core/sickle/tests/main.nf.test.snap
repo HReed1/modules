@@ -98,13 +98,44 @@
     "test-sickle-stub": {
         "content": [
             {
+                "0": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.se.trimmed.fastq.gz:md5,68b329da9893e34099c7d8ad5cb9c940"
+                    ]
+                ],
+                "1": [
+                    
+                ],
+                "2": [
+                    
+                ],
+                "3": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.sickle.log:md5,d41d8cd98f00b204e9800998ecf8427e"
+                    ]
+                ],
+                "4": [
+                    [
+                        "SICKLE",
+                        "sickle",
+                        "1.33"
+                    ]
+                ],
                 "log": [
                     [
                         {
                             "id": "test",
                             "single_end": true
                         },
-                        "test.sickle.log"
+                        "test.sickle.log:md5,d41d8cd98f00b204e9800998ecf8427e"
                     ]
                 ],
                 "paired_trimmed": [
@@ -131,7 +162,7 @@
                 ]
             }
         ],
-        "timestamp": "2026-04-30T14:15:25.552497",
+        "timestamp": "2026-04-30T15:15:37.6389",
         "meta": {
             "nf-test": "0.9.5",
             "nextflow": "26.04.0"
