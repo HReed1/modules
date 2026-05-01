@@ -13,7 +13,7 @@ process RASUSA {
 
     output:
     tuple val(meta), path('*.fastq.gz'), emit: reads
-    tuple val("${task.process}"), val('rasusa'), eval('rasusa --version 2>&1 | sed -e "s/rasusa //g"'), emit: versions_rasusa, topic: versions
+    tuple val("${task.process}"), val('rasusa'), eval('rasusa --version 2>&1 | sed -e "s/rasusa //g"'), emit: versions, topic: versions
 
     when:
     task.ext.when == null || task.ext.when
