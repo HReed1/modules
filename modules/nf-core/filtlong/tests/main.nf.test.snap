@@ -20,7 +20,7 @@
                         "test_lr.fastq.gz:md5,7567d853ada6ac142332619d0b541d76"
                     ]
                 ],
-                "versions_filtlong": [
+                "versions": [
                     [
                         "FILTLONG",
                         "filtlong",
@@ -29,10 +29,10 @@
                 ]
             }
         ],
-        "timestamp": "2026-04-29T14:47:05.469854",
+        "timestamp": "2026-05-01T07:14:18.145544",
         "meta": {
             "nf-test": "0.9.5",
-            "nextflow": "25.10.4"
+            "nextflow": "26.04.0"
         }
     },
     "sarscov2 nanopore [fastq] - stub": {
@@ -56,7 +56,7 @@
                         "test_lr.fastq.gz:md5,68b329da9893e34099c7d8ad5cb9c940"
                     ]
                 ],
-                "versions_filtlong": [
+                "versions": [
                     [
                         "FILTLONG",
                         "filtlong",
@@ -65,10 +65,10 @@
                 ]
             }
         ],
-        "timestamp": "2026-04-29T14:47:17.623243",
+        "timestamp": "2026-05-01T07:14:35.656892",
         "meta": {
             "nf-test": "0.9.5",
-            "nextflow": "25.10.4"
+            "nextflow": "26.04.0"
         }
     },
     "sarscov2 nanopore [fastq] + Illumina paired-end [fastq]": {
@@ -92,7 +92,7 @@
                         "test_lr.fastq.gz:md5,7567d853ada6ac142332619d0b541d76"
                     ]
                 ],
-                "versions_filtlong": [
+                "versions": [
                     [
                         "FILTLONG",
                         "filtlong",
@@ -101,10 +101,10 @@
                 ]
             }
         ],
-        "timestamp": "2026-04-29T14:47:14.186871",
+        "timestamp": "2026-05-01T07:14:30.519004",
         "meta": {
             "nf-test": "0.9.5",
-            "nextflow": "25.10.4"
+            "nextflow": "26.04.0"
         }
     },
     "sarscov2 nanopore [fastq] + Illumina single-end [fastq]": {
@@ -128,7 +128,7 @@
                         "test_lr.fastq.gz:md5,7567d853ada6ac142332619d0b541d76"
                     ]
                 ],
-                "versions_filtlong": [
+                "versions": [
                     [
                         "FILTLONG",
                         "filtlong",
@@ -137,10 +137,10 @@
                 ]
             }
         ],
-        "timestamp": "2026-04-29T14:47:09.924687",
+        "timestamp": "2026-05-01T07:14:24.675799",
         "meta": {
             "nf-test": "0.9.5",
-            "nextflow": "25.10.4"
+            "nextflow": "26.04.0"
         }
     }
 }
