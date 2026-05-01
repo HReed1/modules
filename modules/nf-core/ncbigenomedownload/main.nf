@@ -27,7 +27,7 @@ process NCBIGENOMEDOWNLOAD {
     tuple val(meta), path("*_rna_from_genomic.fna.gz"), emit: rna_fna , optional: true
     tuple val(meta), path("*_assembly_report.txt")    , emit: report  , optional: true
     tuple val(meta), path("*_assembly_stats.txt")     , emit: stats   , optional: true
-    tuple val("${task.process}"), val('ncbigenomedownload'), eval('ncbi-genome-download --version'), topic: versions, emit: versions_ncbigenomedownload
+    tuple val("${task.process}"), val('ncbigenomedownload'), eval('ncbi-genome-download --version'), topic: versions, emit: versions
 
     when:
     task.ext.when == null || task.ext.when
