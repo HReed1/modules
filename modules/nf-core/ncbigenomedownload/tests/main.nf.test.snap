@@ -138,7 +138,7 @@
                         "test_assembly_stats.txt:md5,d41d8cd98f00b204e9800998ecf8427e"
                     ]
                 ],
-                "versions_ncbigenomedownload": [
+                "versions": [
                     [
                         "NCBIGENOMEDOWNLOAD",
                         "ncbigenomedownload",
@@ -158,10 +158,10 @@
                 ]
             }
         ],
-        "timestamp": "2026-04-29T15:39:43.025957",
+        "timestamp": "2026-05-01T07:16:16.318234",
         "meta": {
             "nf-test": "0.9.5",
-            "nextflow": "25.10.4"
+            "nextflow": "26.04.0"
         }
     },
     "test-ncbigenomedownload": {
@@ -192,7 +192,7 @@
                 ]
             ],
             {
-                "versions_ncbigenomedownload": [
+                "versions": [
                     [
                         "NCBIGENOMEDOWNLOAD",
                         "ncbigenomedownload",
@@ -201,10 +201,10 @@
                 ]
             }
         ],
-        "timestamp": "2026-03-12T13:17:24.89950318",
+        "timestamp": "2026-05-01T07:16:10.163054",
         "meta": {
-            "nf-test": "0.9.4",
-            "nextflow": "25.10.4"
+            "nf-test": "0.9.5",
+            "nextflow": "26.04.0"
         }
     }
 }
