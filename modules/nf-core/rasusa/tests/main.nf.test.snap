@@ -14,7 +14,7 @@
                         ]
                     ]
                 ],
-                "versions": [
+                "versions_rasusa": [
                     [
                         "RASUSA",
                         "rasusa",
@@ -23,7 +23,7 @@
                 ]
             }
         ],
-        "timestamp": "2026-05-01T07:17:33.681543",
+        "timestamp": "2026-05-01T08:25:29.247775",
         "meta": {
             "nf-test": "0.9.5",
             "nextflow": "26.04.0"
@@ -44,7 +44,7 @@
                         ]
                     ]
                 ],
-                "versions": [
+                "versions_rasusa": [
                     [
                         "RASUSA",
                         "rasusa",
@@ -53,7 +53,7 @@
                 ]
             }
         ],
-        "timestamp": "2026-05-01T07:17:28.024531",
+        "timestamp": "2026-05-01T08:25:22.880654",
         "meta": {
             "nf-test": "0.9.5",
             "nextflow": "26.04.0"
