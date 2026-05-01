@@ -30,13 +30,13 @@ input:
         description: fastq file
         pattern: "*.{fq,fastq,fq.gz,fastq.gz}"
         ontologies:
-          - edam: http://edamontology.org/format_1930
+          - edam: http://edamontology.org/format_1930 # FASTQ
     - longreads:
         type: file
         description: fastq file
         pattern: "*.{fq,fastq,fq.gz,fastq.gz}"
         ontologies:
-          - edam: http://edamontology.org/format_1930
+          - edam: http://edamontology.org/format_1930 # FASTQ
 output:
   reads:
     - - meta:
@@ -49,7 +49,7 @@ output:
           description: Filtered (compressed) fastq file
           pattern: "*.fastq.gz"
           ontologies:
-            - edam: http://edamontology.org/format_3989
+            - edam: http://edamontology.org/format_3989 # GZIP format
   log:
     - - meta:
           type: map
@@ -61,7 +61,7 @@ output:
           description: Standard error logging file containing summary statistics
           pattern: "*.log"
           ontologies: []
-  versions_filtlong:
+  versions:
     - - ${task.process}:
           type: string
           description: The process the versions were collected from
