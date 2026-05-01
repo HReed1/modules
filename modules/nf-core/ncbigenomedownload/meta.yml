@@ -198,7 +198,7 @@ output:
             assembly
           pattern: "*_assembly_stats.txt"
           ontologies: []
-  versions:
+  versions_ncbigenomedownload:
     - - ${task.process}:
           type: string
           description: The process name
