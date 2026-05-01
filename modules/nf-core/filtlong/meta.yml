@@ -61,7 +61,7 @@ output:
           description: Standard error logging file containing summary statistics
           pattern: "*.log"
           ontologies: []
-  versions:
+  versions_filtlong:
     - - ${task.process}:
           type: string
           description: The process the versions were collected from
